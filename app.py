@@ -26,7 +26,22 @@ app = Flask(__name__)
 hex_key = "32656534343831396539623435393838343531343130363762323831363231383734643064356437616639643866376530306331653534373135623764316533"
 key = bytes.fromhex(hex_key)
 
-REGION_LANG = {"ME": "ar","IND": "hi","ID": "id","VN": "vi","TH": "th","BD": "bn","PK": "ur","TW": "zh","EU": "en","RU": "ru","NA": "en","SAC": "es","BR": "pt"}
+REGION_LANG = {
+    "ME": "ar",
+    "IND": "hi", 
+    "ID": "id",
+    "VN": "vi",
+    "TH": "th",
+    "BD": "bn",
+    "PK": "ur",
+    "TW": "zh",
+    "EU": "en",
+    "RU": "ru",
+    "NA": "en",
+    "SAC": "es",
+    "BR": "pt",
+    "SG": "en"  # සිංගප්පූරුව සඳහා ඉංග්‍රීසි එකතු කිරීම
+}
 REGION_URLS = {
     "IND": "https://client.ind.freefiremobile.com/",
     "ID": "https://clientbp.ggblueshark.com/",
