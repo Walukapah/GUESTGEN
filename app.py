@@ -40,7 +40,7 @@ REGION_LANG = {
     "NA": "en",
     "SAC": "es",
     "BR": "pt",
-    "SG": "en"  # සිංගප්පූරුව සඳහා ඉංග්‍රීසි එකතු කිරීම
+    "SG": "si"  # සිංගප්පූරුව සඳහා ඉංග්‍රීසි එකතු කිරීම
 }
 REGION_URLS = {
     "IND": "https://client.ind.freefiremobile.com/",
